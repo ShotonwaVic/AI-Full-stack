@@ -1,0 +1,20 @@
+
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, sans-serif; color: #172033; }
+  main { max-width: 38rem; margin: 3rem auto; padding: 1.5rem; }
+  button { border: 1px solid #94a3b8; border-radius: .5rem; padding: .65rem 1rem; cursor: pointer; }
+  .primary { border-color: #2563eb; background: #2563eb; color: white; }
+  dialog { width: min(28rem, calc(100% - 2rem)); border: 0; border-radius: .75rem; padding: 1.5rem; box-shadow: 0 1rem 3rem #0f172a55; }
+  dialog::backdrop { background: #0f172a99; backdrop-filter: blur(2px); }
+
+
+    * { box-sizing: border-box; }
+  body { margin: 0; padding: 2rem; font: 16px/1.5 system-ui, sans-serif; color: #172033; }
+  main { max-width: 38rem; margin: auto; }
+  .actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+  button { border: 1px solid #94a3b8; border-radius: .5rem; padding: .65rem 1rem; background: white; color: #172033; cursor: pointer; }
+  .primary { border-color: #2563eb; background: #2563eb; color: white; }
+  [popover] { width: min(22rem, calc(100% - 2rem)); border: 1px solid #cbd5e1; border-radius: .75rem; padding: 1rem; box-shadow: 0 1rem 3rem #0f172a33; }
+  [popover]::backdrop { background: #0f172a22; }
+  dialog { width: min(26rem, calc(100% - 2rem)); border: 0; border-radius: .75rem; padding: 1.5rem; box-shadow: 0 1rem 3rem #0f172a55; }
+  dialog::backdrop { background: #0f172a99; backdrop-filter: blur(2px); }
